@@ -1,4 +1,4 @@
-# ScarpyFor?
+# ScrapyFor?
 A simple crawler to get download url
 
 ## 运行
