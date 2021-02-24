@@ -1,8 +1,0 @@
-﻿LOG 2021/01/30
-Save Path: E:\GitHub\91pron_python\m3u8DL-CLI\Logs
-Task Start: 2021/01/30 00:48:16
-Task CommandLine: "E:\GitHub\91pron_python\m3u8DL-CLI\N_m3u8DL-CLI_v2.9.4.exe" 
-
-00:48:16.983 / (NORMAL) 开始解析 E:\GitHub\91porn\urlwithtitle.txt
-00:48:16.985 / (NORMAL) 解析m3u8内容
-00:48:16.985 / (ERROR) 无效的m3u8
