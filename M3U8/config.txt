@@ -1,0 +1,1 @@
+程序路径=Tl9tM3U4REwtQ0xJX3YyLjkuMS5leGU=;保存路径=QzpcVXNlcnNcMTM1NzdcRGVza3RvcFw5MVBvcm5cTTNVOA==;删除临时文件=1;MP4混流边下边看=0;二进制合并=0;仅解析模式=0;不写入日期=0;最大线程=32;最小线程=16;重试次数=15;超时秒数=10;停止速度=0;最大速度=0;不合并=0;不使用系统代理=0;仅合并音频=0
