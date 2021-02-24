@@ -28,3 +28,18 @@ A simple crawler to get download url
 ├── .gitignore
 ├── .flaskenv
 ```
+
+## 说明
+本程序会先抓取指定网站（某自拍网站）的前多少页的视频信息,再对用户所定需求进行筛选后提取响应的 DownloadUrl
+若条件允许请开启 SSR/V2rayN 等工具, 以便程序的稳定读取
+若有简单包报错, 但不影响程序进行, 请自行忽略
+
+## 声明
+
+- 本程序仅供学习参考，请在达成目的后停止使用
+
+- 使用后任何不可知事件都与原作者无关，原作者不承担任何后果
+
+- [MIT License](https://choosealicense.com/licenses/mit/)
+
+使用愉快。  ：）
