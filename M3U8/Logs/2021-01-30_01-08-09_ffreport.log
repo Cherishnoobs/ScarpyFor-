@@ -1,0 +1,32 @@
+ffmpeg started on 2021-01-30 at 01:08:35
+Report written to "E:/GitHub/91pron_python/m3u8DL-CLI/Logs/2021-01-30_01-08-09_ffreport.log"
+Command line:
+"E:\\GitHub\\91pron_python\\m3u8DL-CLI\\ffmpeg.exe" -loglevel warning -i "concat:00.ts|01.ts|02.ts|03.ts|04.ts|05.ts|06.ts|07.ts|08.ts|09.ts|10.ts|11.ts|12.ts|13.ts|14.ts|15.ts|" -map "0:v?" -map "0:a?" -map "0:s?" -metadata "date=2021-01-30T01:08:35.7237885+08:00" -metadata "encoding_tool=" -metadata "title=" -metadata "copyright=" -metadata "comment=" -metadata:s:a:0 "handler_name=" -metadata:s:a:0 "handler=" -c copy -y -bsf:a aac_adtstoasc "E:\\GitHub\\91pron_python\\m3u8DL-CLI\\Downloads\\425199.mp4"
+ffmpeg version N-94813-g85386c36e3-ffmpeg-for-N_m3u8DL-CLI Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8.2.0 (GCC)
+  libavutil      56. 35.100 / 56. 35.100
+  libavcodec     58. 56.101 / 58. 56.101
+  libavformat    58. 32.104 / 58. 32.104
+  libavfilter     7. 58.102 /  7. 58.102
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswresample   3.  6.100 /  3.  6.100
+Input #0, mpegts, from 'concat:00.ts|01.ts|02.ts|03.ts|04.ts|05.ts|06.ts|07.ts|08.ts|09.ts|10.ts|11.ts|12.ts|13.ts|14.ts|15.ts|':
+  Duration: 00:02:34.70, start: 1.458667, bitrate: 575 kb/s
+  Program 1 
+    Metadata:
+      service_name    : Service01
+      service_provider: FFmpeg
+    Stream #0:0[0x100]: Video: h264 ([27][0][0][0] / 0x001B), yuv420p(progressive), 600x336, 25 fps, 25 tbr, 90k tbn, 50 tbc
+    Stream #0:1[0x101](und): Audio: aac ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp, 4 kb/s
+Output #0, mp4, to 'E:\GitHub\91pron_python\m3u8DL-CLI\Downloads\425199.mp4':
+  Metadata:
+    date            : 2021-01-30T01:08:35.7237885+08:00
+    encoder         : Lavf58.32.104
+    Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 600x336, q=2-31, 25 fps, 25 tbr, 90k tbn, 90k tbc
+    Stream #0:1(und): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 4 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame= 3867 fps=0.0 q=-1.0 Lsize=   10125kB time=00:02:34.68 bitrate= 536.2kbits/s speed=2.04e+03x    
+video:7676kB audio:2335kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.135919%

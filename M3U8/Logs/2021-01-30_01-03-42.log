@@ -1,0 +1,20 @@
+﻿LOG 2021/01/30
+Save Path: E:\GitHub\91pron_python\m3u8DL-CLI\Logs
+Task Start: 2021/01/30 01:03:42
+Task CommandLine: "N_m3u8DL-CLI_v2.9.1.exe"  "https://fdc.91p49.com//m3u8/427913/427913.m3u8?st=q_vZ7H-xvVXn6M7IQ7l4nA&e=1611946177&f=2e34Qu9tkLeaYC01fBL4cYABbWs+HIsPVeXDLfva0xBEDI2tTjD1qqWrNvzpf2RywwV9O1AS2WjgaPB4kMPqCTFsYbfJf2sYP5HQ9pwOdAxUKn05WE4Y" --saveName "427913" --enableDelAfterDone 
+
+01:03:42.560 / (NORMAL) 开始解析 https://fdc.91p49.com//m3u8/427913/427913.m3u8?st=q_vZ7H-xvVXn6M7IQ7l4nA&e=1611946177&f=2e34Qu9tkLeaYC01fBL4cYABbWs+HIsPVeXDLfva0xBEDI2tTjD1qqWrNvzpf2RywwV9O1AS2WjgaPB4kMPqCTFsYbfJf2sYP5HQ9pwOdAxUKn05WE4Y
+01:03:44.342 / (NORMAL) 解析m3u8内容
+01:03:44.358 / (NORMAL) 写出meta.json
+01:03:44.436 / (NORMAL) 开始下载文件
+01:03:44.920 / (NORMAL) 读取文件信息...
+01:03:44.998 / (NORMAL) PID 0x100: Video h264, yuv420p(progressive), 202x360, 30 fps, 30 tbr, 90k tbn, 60 tbc
+01:03:44.998 / (NORMAL) PID 0x101: Audio aac, 44100 Hz, stereo, fltp, 138 kb/s
+01:03:55.347 / (NORMAL) 开始合并分片...
+01:03:55.797 / (NORMAL) 结果输出至 [ffreport.log]
+01:03:55.798 / (NORMAL) 任务结束
+
+Task End: 2021/01/30 01:03:55
+File: E:\GitHub\91pron_python\m3u8DL-CLI\Downloads\427913.mp4
+
+

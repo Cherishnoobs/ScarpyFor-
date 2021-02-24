@@ -1,0 +1,31 @@
+﻿LOG 2021/01/30
+Save Path: E:\GitHub\91pron_python\m3u8DL-CLI\Logs
+Task Start: 2021/01/30 01:09:18
+Task CommandLine: "N_m3u8DL-CLI_v2.9.1.exe"  "https://ccn.91p52.com//m3u8/428945/428945.m3u8?st=H2mXssS4TBlUgm6jtehW3w&e=1611946198&f=c407UHRMocPdFB75IwFo3tcOxM3yWNjQyDyhjzGSukJVgcomL2o2eCcnTt7MWyBS3xNYpK/l5ruKeoM1kfww1Uwb7Z5i+8DtNCI1EXJsoy5HaSb4tUeasQ" --saveName "l5ruKeoM1kfww1Uwb7Z5i 8DtNCI1EXJsoy5HaSb4tUeasQ" --enableDelAfterDone 
+
+01:09:18.492 / (NORMAL) 开始解析 https://ccn.91p52.com//m3u8/428945/428945.m3u8?st=H2mXssS4TBlUgm6jtehW3w&e=1611946198&f=c407UHRMocPdFB75IwFo3tcOxM3yWNjQyDyhjzGSukJVgcomL2o2eCcnTt7MWyBS3xNYpK/l5ruKeoM1kfww1Uwb7Z5i+8DtNCI1EXJsoy5HaSb4tUeasQ
+01:09:22.245 / (NORMAL) 解析m3u8内容
+01:09:22.253 / (NORMAL) 写出meta.json
+01:09:22.334 / (NORMAL) 开始下载文件
+01:09:23.016 / (NORMAL) 读取文件信息...
+01:09:23.105 / (NORMAL) PID 0x100: Video h264, yuv420p(progressive), 600x336, 25 fps, 25 tbr, 90k tbn, 50 tbc
+01:09:23.105 / (NORMAL) PID 0x101: Audio aac, 48000 Hz, stereo, fltp, 4 kb/s
+01:09:34.838 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/42894549.ts
+01:09:36.500 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/4289452.ts
+01:09:36.740 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/42894562.ts
+01:09:39.816 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/42894515.ts
+01:09:41.102 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/42894570.ts
+01:09:41.322 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/42894546.ts
+01:09:49.449 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/42894516.ts
+01:09:55.533 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/428945/4289455.ts
+01:09:57.654 / (NORMAL) 完成数量 101 of 109
+01:09:57.654 / (NORMAL) 重试次数 1 / 15
+01:10:03.673 / (NORMAL) 开始下载文件
+01:10:06.857 / (NORMAL) 开始合并分片...
+01:10:07.468 / (NORMAL) 结果输出至 [ffreport.log]
+01:10:07.468 / (NORMAL) 任务结束
+
+Task End: 2021/01/30 01:10:07
+File: E:\GitHub\91pron_python\m3u8DL-CLI\Downloads\l5ruKeoM1kfww1Uwb7Z5i 8DtNCI1EXJsoy5HaSb4tUeasQ.mp4
+
+

@@ -1,0 +1,32 @@
+ffmpeg started on 2021-01-30 at 00:58:05
+Report written to "E:/GitHub/91pron_python/m3u8DL-CLI/Logs/2021-01-30_00-56-47_ffreport.log"
+Command line:
+"E:\\GitHub\\91pron_python\\m3u8DL-CLI\\ffmpeg.exe" -loglevel warning -i "concat:0.ts|1.ts|2.ts|3.ts|4.ts|5.ts|6.ts|7.ts|" -map "0:v?" -map "0:a?" -map "0:s?" -metadata "date=2021-01-30T00:58:05.7140898+08:00" -metadata "encoding_tool=" -metadata "title=" -metadata "copyright=" -metadata "comment=" -metadata:s:a:0 "handler_name=" -metadata:s:a:0 "handler=" -c copy -y -bsf:a aac_adtstoasc "E:\\GitHub\\91pron_python\\m3u8DL-CLI\\Downloads\\WaBskAuroiw4xQVDm.mp4"
+ffmpeg version N-94813-g85386c36e3-ffmpeg-for-N_m3u8DL-CLI Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8.2.0 (GCC)
+  libavutil      56. 35.100 / 56. 35.100
+  libavcodec     58. 56.101 / 58. 56.101
+  libavformat    58. 32.104 / 58. 32.104
+  libavfilter     7. 58.102 /  7. 58.102
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswresample   3.  6.100 /  3.  6.100
+Input #0, mpegts, from 'concat:0.ts|1.ts|2.ts|3.ts|4.ts|5.ts|6.ts|7.ts|':
+  Duration: 00:01:16.37, start: 1.443511, bitrate: 699 kb/s
+  Program 1 
+    Metadata:
+      service_name    : Service01
+      service_provider: FFmpeg
+    Stream #0:0[0x100]: Video: h264 ([27][0][0][0] / 0x001B), yuv420p(progressive), 600x336, 29.97 fps, 29.97 tbr, 90k tbn, 59.94 tbc
+    Stream #0:1[0x101](eng): Audio: aac ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp, 124 kb/s
+Output #0, mp4, to 'E:\GitHub\91pron_python\m3u8DL-CLI\Downloads\WaBskAuroiw4xQVDm.mp4':
+  Metadata:
+    date            : 2021-01-30T00:58:05.7140898+08:00
+    encoder         : Lavf58.32.104
+    Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 600x336, q=2-31, 29.97 fps, 29.97 tbr, 90k tbn, 90k tbc
+    Stream #0:1(eng): Audio: aac (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 124 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame= 2288 fps=0.0 q=-1.0 Lsize=    6132kB time=00:01:16.34 bitrate= 657.9kbits/s speed= 977x    
+video:4847kB audio:1201kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.388013%

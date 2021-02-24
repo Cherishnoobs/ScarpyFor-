@@ -1,0 +1,32 @@
+ffmpeg started on 2021-01-30 at 01:02:37
+Report written to "E:/GitHub/91pron_python/m3u8DL-CLI/Logs/2021-01-30_01-01-26_ffreport.log"
+Command line:
+"E:\\GitHub\\91pron_python\\m3u8DL-CLI\\ffmpeg.exe" -loglevel warning -i "concat:000.ts|001.ts|002.ts|003.ts|004.ts|005.ts|006.ts|007.ts|008.ts|009.ts|010.ts|011.ts|012.ts|013.ts|014.ts|015.ts|016.ts|017.ts|018.ts|019.ts|020.ts|021.ts|022.ts|023.ts|024.ts|025.ts|026.ts|027.ts|028.ts|029.ts|030.ts|031.ts|032.ts|033.ts|034.ts|035.ts|036.ts|037.ts|038.ts|039.ts|040.ts|041.ts|042.ts|043.ts|044.ts|045.ts|046.ts|047.ts|048.ts|049.ts|050.ts|051.ts|052.ts|053.ts|054.ts|055.ts|056.ts|057.ts|058.ts|059.ts|060.ts|061.ts|062.ts|063.ts|064.ts|065.ts|066.ts|067.ts|068.ts|069.ts|070.ts|071.ts|072.ts|073.ts|074.ts|075.ts|076.ts|077.ts|078.ts|079.ts|080.ts|081.ts|082.ts|083.ts|084.ts|085.ts|086.ts|087.ts|088.ts|089.ts|090.ts|091.ts|092.ts|093.ts|094.ts|095.ts|096.ts|097.ts|098.ts|099.ts|100.ts|101.ts|102.ts|103.ts|104.ts|105.ts|106.ts|107.ts|108.ts|109.ts|110.ts|111.ts|112.ts|113.ts|114.ts|115.ts|116.ts|117.ts|118.ts|119.ts|120.ts|121.ts|" -map "0:v?" -map "0:a?" -map "0:s?" -metadata "date=2021-01-30T01:02:37.3264641+08:00" -metadata "encoding_tool=" -metadata "title=" -metadata "copyright=" -metadata "comment=" -metadata:s:a:0 "handler_name=" -metadata:s:a:0 "handler=" -c copy -y -bsf:a aac_adtstoasc "E:\\GitHub\\91pron_python\\m3u8DL-CLI\\Downloads\\A2ZmHN7iUt6CyKyC1CKqR6KUOkasjtDu4LzBjdlFNYacZWmH.mp4"
+ffmpeg version N-94813-g85386c36e3-ffmpeg-for-N_m3u8DL-CLI Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8.2.0 (GCC)
+  libavutil      56. 35.100 / 56. 35.100
+  libavcodec     58. 56.101 / 58. 56.101
+  libavformat    58. 32.104 / 58. 32.104
+  libavfilter     7. 58.102 /  7. 58.102
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswresample   3.  6.100 /  3.  6.100
+Input #0, mpegts, from 'concat:000.ts|001.ts|002.ts|003.ts|004.ts|005.ts|006.ts|007.ts|008.ts|009.ts|010.ts|011.ts|012.ts|013.ts|014.ts|015.ts|016.ts|017.ts|018.ts|019.ts|020.ts|021.ts|022.ts|023.ts|024.ts|025.ts|026.ts|027.ts|028.ts|029.ts|030.ts|031.ts|032.ts|033.ts|034.ts|035.ts|036.ts|037.ts|038.ts|039.ts|040.ts|041.ts|042.ts|043.ts|044.ts|045.ts|046.ts|047.ts|048.ts|049.ts|050.ts|051.ts|052.ts|053.ts|054.ts|055.ts|056.ts|057.ts|058.ts|059.ts|060.ts|061.ts|062.ts|063.ts|064.ts|065.ts|066.ts|067.ts|068.ts|069.ts|070.ts|071.ts|072.ts|073.ts|074.ts|075.ts|076.ts|077.ts|078.ts|079.ts|080.ts|081.ts|082.ts|083.ts|084.ts|085.ts|086.ts|087.ts|088.ts|089.ts|090.ts|091.ts|092.ts|093.ts|094.ts|095.ts|096.ts|097.ts|098.ts|099.ts|100.ts|101.ts|102.ts|103.ts|104.ts|105.ts|106.ts|107.ts|108.ts|109.ts|110.ts|111.ts|112.ts|113.ts|114.ts|115.ts|116.ts|117.ts|118.ts|119.ts|120.ts|121.ts|':
+  Duration: 00:20:17.72, start: 1.445333, bitrate: 683 kb/s
+  Program 1 
+    Metadata:
+      service_name    : Service01
+      service_provider: FFmpeg
+    Stream #0:0[0x100]: Video: h264 ([27][0][0][0] / 0x001B), yuv420p(progressive), 600x336, 30 fps, 30 tbr, 90k tbn, 60 tbc
+    Stream #0:1[0x101](und): Audio: aac ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp, 4 kb/s
+Output #0, mp4, to 'E:\GitHub\91pron_python\m3u8DL-CLI\Downloads\A2ZmHN7iUt6CyKyC1CKqR6KUOkasjtDu4LzBjdlFNYacZWmH.mp4':
+  Metadata:
+    date            : 2021-01-30T01:02:37.3264641+08:00
+    encoder         : Lavf58.32.104
+    Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 600x336, q=2-31, 30 fps, 30 tbr, 90k tbn, 90k tbc
+    Stream #0:1(und): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 4 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=24934 fps=0.0 q=-1.0 size=   63744kB time=00:13:51.06 bitrate= 628.3kbits/s speed=1.66e+03x    frame=36531 fps=0.0 q=-1.0 Lsize=   95257kB time=00:20:17.70 bitrate= 640.8kbits/s speed=1.73e+03x    
+video:75034kB audio:19014kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.285794%

@@ -1,0 +1,26 @@
+﻿LOG 2021/01/30
+Save Path: E:\GitHub\91pron_python\m3u8DL-CLI\Logs
+Task Start: 2021/01/30 01:07:21
+Task CommandLine: "N_m3u8DL-CLI_v2.9.1.exe"  "https://ccn.91p52.com//m3u8/423117/423117.m3u8?st=ntlG4oSjduTlBmgbwvyt0g&e=1611946191&f=22847U08iXFkrHk9H7biBsXgOl8fELFnmuktdOgTTMz80PZtBqee61h7SWPM7UifuG0IjDz8WTNr/p9jJz1uYYB/KtpY6ahFgb0lLP97xXMqOLpMvYn5Ew" --saveName "KtpY6ahFgb0lLP97xXMqOLpMvYn5Ew" --enableDelAfterDone 
+
+01:07:21.737 / (NORMAL) 开始解析 https://ccn.91p52.com//m3u8/423117/423117.m3u8?st=ntlG4oSjduTlBmgbwvyt0g&e=1611946191&f=22847U08iXFkrHk9H7biBsXgOl8fELFnmuktdOgTTMz80PZtBqee61h7SWPM7UifuG0IjDz8WTNr/p9jJz1uYYB/KtpY6ahFgb0lLP97xXMqOLpMvYn5Ew
+01:07:25.745 / (NORMAL) 解析m3u8内容
+01:07:25.752 / (NORMAL) 写出meta.json
+01:07:25.830 / (NORMAL) 开始下载文件
+01:07:27.509 / (NORMAL) 读取文件信息...
+01:07:27.609 / (NORMAL) PID 0x100: Video h264, yuv420p(progressive), 202x360, 60 fps, 60 tbr, 90k tbn, 120 tbc
+01:07:27.609 / (NORMAL) PID 0x101: Audio aac, 44100 Hz, stereo, fltp, 134 kb/s
+01:07:40.321 / (ERROR) DOWN: 操作超时 https://ccn.91p52.com//m3u8/423117/42311732.ts
+01:07:41.096 / (ERROR) DOWN: 操作超时 https://ccn.91p52.com//m3u8/423117/42311711.ts
+01:07:51.868 / (ERROR) DOWN: 操作已超时。 https://ccn.91p52.com//m3u8/423117/42311733.ts
+01:07:51.868 / (NORMAL) 完成数量 47 of 50
+01:07:51.868 / (NORMAL) 重试次数 1 / 15
+01:07:57.880 / (NORMAL) 开始下载文件
+01:08:02.394 / (NORMAL) 开始合并分片...
+01:08:02.857 / (NORMAL) 结果输出至 [ffreport.log]
+01:08:02.857 / (NORMAL) 任务结束
+
+Task End: 2021/01/30 01:08:02
+File: E:\GitHub\91pron_python\m3u8DL-CLI\Downloads\KtpY6ahFgb0lLP97xXMqOLpMvYn5Ew.mp4
+
+
